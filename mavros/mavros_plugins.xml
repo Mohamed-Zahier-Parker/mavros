@@ -87,4 +87,7 @@
   <class name="wind_estimation" type="mavros::std_plugins::WindEstimationPlugin" base_class_type="mavros::plugin::PluginBase">
     <description>Publish wind estimates</description>
   </class>
+  <class name="mpc_inputs" type="mavros::std_plugins::MPCInputsPlugin" base_class_type="mavros::plugin::PluginBase">
+		<description>MPC inputs</description>
+	</class>
 </library>

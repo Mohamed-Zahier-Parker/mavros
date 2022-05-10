@@ -68,6 +68,8 @@ add_message_files(
   WaypointList.msg
   WaypointReached.msg
   WheelOdomStamped.msg
+  MPC_Inputs.msg
+  MPC_Outputs.msg
 )
 
 add_service_files(
