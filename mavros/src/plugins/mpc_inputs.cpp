@@ -82,6 +82,7 @@ private:
 		ros_msg->grd_vel = mpc_inputs.grd_vel;
 		ros_msg->ramp_trajectory = mpc_inputs.ramp_trajectory;
 		ros_msg->mpc_activate = mpc_inputs.mpc_activate;
+		ros_msg->mpc_land = mpc_inputs.mpc_land;
 
 		mpc_inputs_pub.publish(ros_msg);
 	}
